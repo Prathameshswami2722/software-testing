@@ -1,0 +1,4 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Team 12 - Employee Contact Information" verbose="1" thread-count="1" configfailurepolicy="continue">
+  <test name="Employee contact information"><classes><class name="tests.ContactDetailsTest"/></classes></test>
+</suite>

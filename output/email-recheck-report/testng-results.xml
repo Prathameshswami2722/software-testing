@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-11-25T22:52:14 IST" name="Surefire suite" finished-at="2026-11-25T22:52:55 IST" duration-ms="40696">
+    <groups>
+    </groups>
+    <test started-at="2026-11-25T22:52:14 IST" name="Surefire test" finished-at="2026-11-25T22:52:55 IST" duration-ms="40696">
+      <class name="tests.ContactDetailsTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.ContactDetailsTest@2928854b]" started-at="2026-11-25T22:52:15 IST" name="setup" finished-at="2026-11-25T22:52:22 IST" duration-ms="7208" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="prepareEmployee()[pri:0, instance:tests.ContactDetailsTest@2928854b]" started-at="2026-11-25T22:52:22 IST" name="prepareEmployee" finished-at="2026-11-25T22:52:27 IST" duration-ms="4903" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prepareEmployee -->
+        <test-method signature="rejectInvalidEmail(java.lang.String,java.lang.String)[pri:0, instance:tests.ContactDetailsTest@2928854b]" started-at="2026-11-25T22:52:27 IST" name="rejectInvalidEmail" description="TC03: Reject invalid email, display validation, and preserve previously saved values" data-provider="invalidEmailData" finished-at="2026-11-25T22:52:33 IST" duration-ms="6564" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Work Email]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[invalid-email]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- rejectInvalidEmail -->
+        <test-method is-config="true" signature="removeEmployee()[pri:0, instance:tests.ContactDetailsTest@2928854b]" started-at="2026-11-25T22:52:34 IST" name="removeEmployee" finished-at="2026-11-25T22:52:35 IST" duration-ms="865" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeEmployee -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.ContactDetailsTest@2928854b]" started-at="2026-11-25T22:52:35 IST" name="tearDown" finished-at="2026-11-25T22:52:35 IST" duration-ms="287" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.ContactDetailsTest@2928854b]" started-at="2026-11-25T22:52:35 IST" name="setup" finished-at="2026-11-25T22:52:42 IST" duration-ms="7378" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="prepareEmployee()[pri:0, instance:tests.ContactDetailsTest@2928854b]" started-at="2026-11-25T22:52:42 IST" name="prepareEmployee" finished-at="2026-11-25T22:52:47 IST" duration-ms="4697" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prepareEmployee -->
+        <test-method signature="rejectInvalidEmail(java.lang.String,java.lang.String)[pri:0, instance:tests.ContactDetailsTest@2928854b]" started-at="2026-11-25T22:52:47 IST" name="rejectInvalidEmail" description="TC03: Reject invalid email, display validation, and preserve previously saved values" data-provider="invalidEmailData" finished-at="2026-11-25T22:52:54 IST" duration-ms="7037" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Other Email]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[missing-domain@]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- rejectInvalidEmail -->
+        <test-method is-config="true" signature="removeEmployee()[pri:0, instance:tests.ContactDetailsTest@2928854b]" started-at="2026-11-25T22:52:54 IST" name="removeEmployee" finished-at="2026-11-25T22:52:55 IST" duration-ms="766" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeEmployee -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.ContactDetailsTest@2928854b]" started-at="2026-11-25T22:52:55 IST" name="tearDown" finished-at="2026-11-25T22:52:55 IST" duration-ms="225" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.ContactDetailsTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

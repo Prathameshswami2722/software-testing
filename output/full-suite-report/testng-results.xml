@@ -1,0 +1,556 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="7" failed="0" skipped="1">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-11-25T22:45:34 IST" name="Team 12 - Employee Contact Information" finished-at="2026-11-25T22:51:16 IST" duration-ms="342535">
+    <groups>
+    </groups>
+    <test started-at="2026-11-25T22:45:34 IST" name="Employee contact information" finished-at="2026-11-25T22:51:16 IST" duration-ms="342535">
+      <class name="tests.ContactDetailsTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.ContactDetailsTest@1ab3a8c8]" started-at="2026-11-25T22:45:34 IST" name="setup" finished-at="2026-11-25T22:45:43 IST" duration-ms="8578" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="prepareEmployee()[pri:0, instance:tests.ContactDetailsTest@1ab3a8c8]" started-at="2026-11-25T22:45:43 IST" name="prepareEmployee" finished-at="2026-11-25T22:45:48 IST" duration-ms="4997" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prepareEmployee -->
+        <test-method signature="manageEmergencyContact(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.ContactDetailsTest@1ab3a8c8]" started-at="2026-11-25T22:45:48 IST" name="manageEmergencyContact" description="TC04: Add, reload, edit, reload, and delete an emergency contact with persistence assertions" data-provider="emergencyData" finished-at="2026-11-25T22:46:07 IST" duration-ms="18968" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test Contact Alpha]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sibling]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0111234567]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[0771234567]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[0117654321]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- manageEmergencyContact -->
+        <test-method is-config="true" signature="removeEmployee()[pri:0, instance:tests.ContactDetailsTest@1ab3a8c8]" started-at="2026-11-25T22:46:07 IST" name="removeEmployee" finished-at="2026-11-25T22:46:08 IST" duration-ms="722" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeEmployee -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.ContactDetailsTest@1ab3a8c8]" started-at="2026-11-25T22:46:08 IST" name="tearDown" finished-at="2026-11-25T22:46:13 IST" duration-ms="4672" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.ContactDetailsTest@1ab3a8c8]" started-at="2026-11-25T22:46:13 IST" name="setup" finished-at="2026-11-25T22:46:25 IST" duration-ms="12788" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="prepareEmployee()[pri:0, instance:tests.ContactDetailsTest@1ab3a8c8]" started-at="2026-11-25T22:46:25 IST" name="prepareEmployee" finished-at="2026-11-25T22:46:31 IST" duration-ms="5662" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prepareEmployee -->
+        <test-method signature="manageEmergencyContact(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.ContactDetailsTest@1ab3a8c8]" started-at="2026-11-25T22:46:31 IST" name="manageEmergencyContact" description="TC04: Add, reload, edit, reload, and delete an emergency contact with persistence assertions" data-provider="emergencyData" finished-at="2026-11-25T22:46:50 IST" duration-ms="18882" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test Contact Beta]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Parent]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0201234567]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[0781234567]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[0207654321]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- manageEmergencyContact -->
+        <test-method is-config="true" signature="removeEmployee()[pri:0, instance:tests.ContactDetailsTest@1ab3a8c8]" started-at="2026-11-25T22:46:50 IST" name="removeEmployee" finished-at="2026-11-25T22:46:51 IST" duration-ms="717" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeEmployee -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.ContactDetailsTest@1ab3a8c8]" started-at="2026-11-25T22:46:51 IST" name="tearDown" finished-at="2026-11-25T22:46:51 IST" duration-ms="182" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.ContactDetailsTest@1ab3a8c8]" started-at="2026-11-25T22:46:51 IST" name="setup" finished-at="2026-11-25T22:47:53 IST" duration-ms="61821" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[timeout: Timed out receiving message from renderer: 59.302
+  (Session info: chrome=158.0.8127.88)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '26.5.2', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e5dbb934e27230142b53b32e0db7ced2, get {url=https://opensource-demo.orangehrmlive.com}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 158.0.8127.88, chrome: {chromedriverVersion: 158.0.8127.88 (0cefb18236a2..., userDataDir: /var/folders/pb/n4ntww4n01n...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49731}, goog:processID: 9048, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:49731/devtoo..., se:cdpVersion: 158.0.8127.88, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int..., webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e5dbb934e27230142b53b32e0db7ced2]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 59.302
+  (Session info: chrome=158.0.8127.88)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '26.5.2', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e5dbb934e27230142b53b32e0db7ced2, get {url=https://opensource-demo.orangehrmlive.com}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 158.0.8127.88, chrome: {chromedriverVersion: 158.0.8127.88 (0cefb18236a2..., userDataDir: /var/folders/pb/n4ntww4n01n...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49731}, goog:processID: 9048, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:49731/devtoo..., se:cdpVersion: 158.0.8127.88, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int..., webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e5dbb934e27230142b53b32e0db7ced2
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:313)
+at base.BaseTest.setup(BaseTest.java:17)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:833)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:600)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="prepareEmployee()[pri:0, instance:tests.ContactDetailsTest@1ab3a8c8]" started-at="2026-11-25T22:48:00 IST" name="prepareEmployee" finished-at="2026-11-25T22:48:25 IST" duration-ms="25417" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for element to be clickable: By.xpath: //span[normalize-space()='PIM'] (tried for 25 second(s) with 500 milliseconds interval)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '26.5.2', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 158.0.8127.88, chrome: {chromedriverVersion: 158.0.8127.88 (0cefb18236a2..., userDataDir: /var/folders/pb/n4ntww4n01n...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49731}, goog:processID: 9048, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:49731/devtoo..., se:cdpVersion: 158.0.8127.88, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int..., webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e5dbb934e27230142b53b32e0db7ced2]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //span[normalize-space()='PIM'] (tried for 25 second(s) with 500 milliseconds interval)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '26.5.2', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 158.0.8127.88, chrome: {chromedriverVersion: 158.0.8127.88 (0cefb18236a2..., userDataDir: /var/folders/pb/n4ntww4n01n...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49731}, goog:processID: 9048, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:49731/devtoo..., se:cdpVersion: 158.0.8127.88, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int..., webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e5dbb934e27230142b53b32e0db7ced2
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at utils.UiActions.click(UiActions.java:22)
+at pages.NavigationBar.open(NavigationBar.java:11)
+at pages.NavigationBar.openPIM(NavigationBar.java:14)
+at tests.ContactDetailsTest.prepareEmployee(ContactDetailsTest.java:19)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:833)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:600)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prepareEmployee -->
+        <test-method signature="rejectInvalidEmail(java.lang.String,java.lang.String)[pri:0, instance:tests.ContactDetailsTest@1ab3a8c8]" started-at="2026-11-25T22:48:25 IST" name="rejectInvalidEmail" description="TC03: Reject invalid email, display validation, and preserve previously saved values" data-provider="invalidEmailData" finished-at="2026-11-25T22:48:25 IST" duration-ms="1" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Work Email]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[invalid-email]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for element to be clickable: By.xpath: //span[normalize-space()='PIM'] (tried for 25 second(s) with 500 milliseconds interval)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '26.5.2', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 158.0.8127.88, chrome: {chromedriverVersion: 158.0.8127.88 (0cefb18236a2..., userDataDir: /var/folders/pb/n4ntww4n01n...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49731}, goog:processID: 9048, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:49731/devtoo..., se:cdpVersion: 158.0.8127.88, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int..., webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e5dbb934e27230142b53b32e0db7ced2]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //span[normalize-space()='PIM'] (tried for 25 second(s) with 500 milliseconds interval)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '26.5.2', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 158.0.8127.88, chrome: {chromedriverVersion: 158.0.8127.88 (0cefb18236a2..., userDataDir: /var/folders/pb/n4ntww4n01n...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49731}, goog:processID: 9048, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:49731/devtoo..., se:cdpVersion: 158.0.8127.88, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int..., webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e5dbb934e27230142b53b32e0db7ced2
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at utils.UiActions.click(UiActions.java:22)
+at pages.NavigationBar.open(NavigationBar.java:11)
+at pages.NavigationBar.openPIM(NavigationBar.java:14)
+at tests.ContactDetailsTest.prepareEmployee(ContactDetailsTest.java:19)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:833)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:600)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- rejectInvalidEmail -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.ContactDetailsTest@1ab3a8c8]" started-at="2026-11-25T22:48:25 IST" name="tearDown" finished-at="2026-11-25T22:48:25 IST" duration-ms="160" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="removeEmployee()[pri:0, instance:tests.ContactDetailsTest@1ab3a8c8]" started-at="2026-11-25T22:48:25 IST" name="removeEmployee" finished-at="2026-11-25T22:48:25 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeEmployee -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.ContactDetailsTest@1ab3a8c8]" started-at="2026-11-25T22:48:25 IST" name="setup" finished-at="2026-11-25T22:48:33 IST" duration-ms="7511" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="prepareEmployee()[pri:0, instance:tests.ContactDetailsTest@1ab3a8c8]" started-at="2026-11-25T22:48:33 IST" name="prepareEmployee" finished-at="2026-11-25T22:48:37 IST" duration-ms="4456" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prepareEmployee -->
+        <test-method signature="rejectInvalidEmail(java.lang.String,java.lang.String)[pri:0, instance:tests.ContactDetailsTest@1ab3a8c8]" started-at="2026-11-25T22:48:37 IST" name="rejectInvalidEmail" description="TC03: Reject invalid email, display validation, and preserve previously saved values" data-provider="invalidEmailData" finished-at="2026-11-25T22:48:46 IST" duration-ms="8422" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Other Email]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[missing-domain@]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- rejectInvalidEmail -->
+        <test-method is-config="true" signature="removeEmployee()[pri:0, instance:tests.ContactDetailsTest@1ab3a8c8]" started-at="2026-11-25T22:48:46 IST" name="removeEmployee" finished-at="2026-11-25T22:48:47 IST" duration-ms="1567" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeEmployee -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.ContactDetailsTest@1ab3a8c8]" started-at="2026-11-25T22:48:47 IST" name="tearDown" finished-at="2026-11-25T22:49:03 IST" duration-ms="15605" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.ContactDetailsTest@1ab3a8c8]" started-at="2026-11-25T22:49:03 IST" name="setup" finished-at="2026-11-25T22:49:17 IST" duration-ms="13785" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="prepareEmployee()[pri:0, instance:tests.ContactDetailsTest@1ab3a8c8]" started-at="2026-11-25T22:49:17 IST" name="prepareEmployee" finished-at="2026-11-25T22:49:25 IST" duration-ms="7978" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prepareEmployee -->
+        <test-method signature="saveAddress(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.ContactDetailsTest@1ab3a8c8]" started-at="2026-11-25T22:49:25 IST" name="saveAddress" description="TC02: Save postal address and verify all six fields after reload" data-provider="addressData" finished-at="2026-11-25T22:49:42 IST" duration-ms="17308" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[12 Test Street]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Suite 2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Pune]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Maharashtra]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[411001]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[India]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- saveAddress -->
+        <test-method is-config="true" signature="removeEmployee()[pri:0, instance:tests.ContactDetailsTest@1ab3a8c8]" started-at="2026-11-25T22:49:42 IST" name="removeEmployee" finished-at="2026-11-25T22:49:43 IST" duration-ms="698" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeEmployee -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.ContactDetailsTest@1ab3a8c8]" started-at="2026-11-25T22:49:43 IST" name="tearDown" finished-at="2026-11-25T22:49:43 IST" duration-ms="184" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.ContactDetailsTest@1ab3a8c8]" started-at="2026-11-25T22:49:43 IST" name="setup" finished-at="2026-11-25T22:49:52 IST" duration-ms="8377" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="prepareEmployee()[pri:0, instance:tests.ContactDetailsTest@1ab3a8c8]" started-at="2026-11-25T22:49:52 IST" name="prepareEmployee" finished-at="2026-11-25T22:49:56 IST" duration-ms="4949" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prepareEmployee -->
+        <test-method signature="saveAddress(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.ContactDetailsTest@1ab3a8c8]" started-at="2026-11-25T22:49:56 IST" name="saveAddress" description="TC02: Save postal address and verify all six fields after reload" data-provider="addressData" finished-at="2026-11-25T22:50:03 IST" duration-ms="6290" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[24 Sample Road]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Floor 3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Colombo]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Western]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[00100]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Sri Lanka]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- saveAddress -->
+        <test-method is-config="true" signature="removeEmployee()[pri:0, instance:tests.ContactDetailsTest@1ab3a8c8]" started-at="2026-11-25T22:50:03 IST" name="removeEmployee" finished-at="2026-11-25T22:50:04 IST" duration-ms="712" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeEmployee -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.ContactDetailsTest@1ab3a8c8]" started-at="2026-11-25T22:50:04 IST" name="tearDown" finished-at="2026-11-25T22:50:21 IST" duration-ms="17234" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.ContactDetailsTest@1ab3a8c8]" started-at="2026-11-25T22:50:21 IST" name="setup" finished-at="2026-11-25T22:50:27 IST" duration-ms="6357" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="prepareEmployee()[pri:0, instance:tests.ContactDetailsTest@1ab3a8c8]" started-at="2026-11-25T22:50:27 IST" name="prepareEmployee" finished-at="2026-11-25T22:50:32 IST" duration-ms="4809" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prepareEmployee -->
+        <test-method signature="saveContactDetails(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.ContactDetailsTest@1ab3a8c8]" started-at="2026-11-25T22:50:32 IST" name="saveContactDetails" description="TC01: Save telephone/email details and verify all five fields after reload" data-provider="contactData" finished-at="2026-11-25T22:50:39 IST" duration-ms="6610" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0111234567]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0771234567]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0117654321]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[team12.work@example.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[team12.other@example.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- saveContactDetails -->
+        <test-method is-config="true" signature="removeEmployee()[pri:0, instance:tests.ContactDetailsTest@1ab3a8c8]" started-at="2026-11-25T22:50:39 IST" name="removeEmployee" finished-at="2026-11-25T22:50:39 IST" duration-ms="756" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeEmployee -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.ContactDetailsTest@1ab3a8c8]" started-at="2026-11-25T22:50:39 IST" name="tearDown" finished-at="2026-11-25T22:50:40 IST" duration-ms="184" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.ContactDetailsTest@1ab3a8c8]" started-at="2026-11-25T22:50:40 IST" name="setup" finished-at="2026-11-25T22:50:49 IST" duration-ms="9846" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="prepareEmployee()[pri:0, instance:tests.ContactDetailsTest@1ab3a8c8]" started-at="2026-11-25T22:50:49 IST" name="prepareEmployee" finished-at="2026-11-25T22:50:54 IST" duration-ms="4367" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prepareEmployee -->
+        <test-method signature="saveContactDetails(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.ContactDetailsTest@1ab3a8c8]" started-at="2026-11-25T22:50:54 IST" name="saveContactDetails" description="TC01: Save telephone/email details and verify all five fields after reload" data-provider="contactData" finished-at="2026-11-25T22:51:01 IST" duration-ms="6663" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0201234567]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0781234567]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0207654321]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[team12.second@example.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[team12.backup@example.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- saveContactDetails -->
+        <test-method is-config="true" signature="removeEmployee()[pri:0, instance:tests.ContactDetailsTest@1ab3a8c8]" started-at="2026-11-25T22:51:01 IST" name="removeEmployee" finished-at="2026-11-25T22:51:01 IST" duration-ms="737" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeEmployee -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.ContactDetailsTest@1ab3a8c8]" started-at="2026-11-25T22:51:01 IST" name="tearDown" finished-at="2026-11-25T22:51:16 IST" duration-ms="15009" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.ContactDetailsTest -->
+    </test> <!-- Employee contact information -->
+  </suite> <!-- Team 12 - Employee Contact Information -->
+</testng-results>
